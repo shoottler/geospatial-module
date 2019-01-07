@@ -1,0 +1,30 @@
+{
+    "name": "shoottler/geospatial-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Angel Formica",
+            "email": "angelformica@gmail.com"
+        }
+    ],
+    "type": "laravel-module",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\GeoSpatial\\Providers\\GeoSpatialServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\GeoSpatial\\": ""
+        }
+    },
+    "require": {
+        "grimzy/laravel-mysql-spatial": "^2.1",
+        "joshbrw/laravel-module-installer": "^0.1.4"
+    }
+}

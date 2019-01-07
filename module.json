@@ -1,0 +1,14 @@
+{
+    "name": "GeoSpatial",
+    "alias": "geospatial",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\GeoSpatial\\Providers\\GeoSpatialServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}
